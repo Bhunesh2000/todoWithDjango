@@ -9,3 +9,6 @@ class TodoView(viewsets.ModelViewSet):
 
 def index(request):
     return render(request, 'index.html')
+
+def viewshower(request):
+	return render(request, 'index.html')    
